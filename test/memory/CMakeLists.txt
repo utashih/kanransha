@@ -1,0 +1,3 @@
+add_executable(tagged_ptr_test tagged_ptr_test.cpp)
+target_link_libraries(tagged_ptr_test gtest glog)
+gtest_add_tests(TARGET tagged_ptr_test)
